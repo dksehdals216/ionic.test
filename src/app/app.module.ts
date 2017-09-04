@@ -10,6 +10,7 @@ import { LivePage } from '../pages/live/live';
 import { ListPage } from '../pages/list/list';
 import { SettingsPage } from '../pages/settings/settings';
 
+import { StreamingMedia } from '@ionic-native/streaming-media';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { SettingsPage } from '../pages/settings/settings';
   providers: [
     StatusBar,
     SplashScreen,
+    StreamingMedia,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
