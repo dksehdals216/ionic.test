@@ -35,7 +35,7 @@ export class HomePage {
 		}
 
 		//link goes here
-		this.streamingMedia.playVideo('http://www.sample-video.com/video/mp4/720/big_buck_bunny_720p_30mb.mp4', options);
+		this.streamingMedia.playVideo('http://techslides.com/demos/sample-videos/small.webm', options);
 
 	}
 
